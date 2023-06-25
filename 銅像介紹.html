@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>活動介紹</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+  	<!-- Darren -->
+    <link href="css/covid19.css" rel="stylesheet">
+    <!-- Theme CSS -->
+      <link href="css/css_darren.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+      <link href="css/agency.min.css" rel="stylesheet">
+<STYLE>
+    .section {
+      padding: 100px 0;
+    }
+
+    .landscape-image {
+      cursor: pointer;
+      filter: brightness(90%);
+      transition: filter 0.3s ease-in-out;
+    }
+
+    .landscape-image:hover {
+      filter: brightness(100%);
+    }
+    .image-container {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .image-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 2px solid #f00; 
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); 
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .image-container:hover::before {
+        opacity: 1;
+    }
+    @media (min-width:576px){
+   .dropdown:hover .dropdown-menu{
+   display: block;
+   opacity: 0;
+   transition: all 0.6s;
+  }
+  .dropdown:hover .dropdown-menu{
+   display: block;
+   margin-top: 0;
+   opacity: 1;
+  }
+  }
+  .navbar-brand :hover{
+     color: rgba(254, 209, 54, 0.9);
+ }
+ .footer{
+   background-color: #2b2b2b;
+   padding: 5em;
+   text-align: center;
+   color: aliceblue;
+ }
+</STYLE>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #2b2b2b; padding: 1em ; ">
+    <div class="container">
+      <a class="navbar-brand" href="#" style="color: aliceblue"><b><i>開臺天后宮媽祖介紹與重光媽祖銅像介紹</i></b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue">
+              <i>花火節</i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgba(0,0,0,.6);">
+              <li><a class="dropdown-item" href="花火節-01.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">文化特色</a></li>
+              <li><a class="dropdown-item" href="花火節-02.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">無人機秀</a></li>
+              <li><a class="dropdown-item" href="花火節-03.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">觀賞地點</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue">
+              <i>澎湖美食</i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgba(0,0,0,.6);">
+            
+              <li><a class="dropdown-item" href="早午餐.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">早午餐</a></li>
+              <li><a class="dropdown-item" href="下午茶.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">下午茶</a></li>
+              <li><a class="dropdown-item" href="晚餐.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">晚餐</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue">
+              <i>澎湖土產</i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgba(0,0,0,.6);">
+              <li><a class="dropdown-item" href="澎湖土產.html"style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;" >澎湖土產</a></li>
+              <li><a class="dropdown-item" href="黑糖糕.html"style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;" >黑糖糕</a></li>
+              <li><a class="dropdown-item" href="花生酥.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">花生酥</a></li>
+              <li><a class="dropdown-item" href="干貝醬.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">干貝醬</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue">
+              <i>古蹟文化</i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgba(0,0,0,.6);">
+              <li><a class="dropdown-item" href="西嶼西臺.html"style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;" >西嶼西臺</a></li>
+              <li><a class="dropdown-item" href="西嶼東臺.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">西嶼東臺</a></li>
+              <li><a class="dropdown-item" href="順承門.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">順承門</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue">
+              <i>澎湖媽祖</i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgba(0,0,0,.6);">
+              <li><a class="dropdown-item" href="活動介紹.html"style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;" >活動介紹</a></li>
+              <li><a class="dropdown-item" href="來歷介紹.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">來歷介紹</a></li>
+              <li><a class="dropdown-item" href="銅像介紹.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">馬祖銅像</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"style="color: aliceblue"><i>首頁</i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+         
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="section">
+		    	<div class="image-container">
+              <img src="img/媽祖/重光媽祖照片.jpg" alt="重光媽祖照片" class="img-fluid rounded landscape-image"
+                data-bs-toggle="modal" data-bs-target="#section1Modal">
+				</div>
+            </div>
+          </div>
+          <div class="col-md-8">
+          <div class="section">
+            <dl class="row">
+              <dt class="col-sm-3">重光媽祖來歷</dt>
+              <dd class="col-sm-9">『2011年由台灣澎湖縣長王乾發提出，計畫於澎湖列島之一的大倉嶼（白沙鄉）設立「媽祖文化園區」，由於該計畫耗資新台幣5.5億元，澎湖縣議會雖通過其預算案，仍興起不少反對聲浪。』</dd>
+
+              <dt class="col-sm-3">重光媽祖時間</dt>
+              <dd class="col-sm-9">
+                <p>2022/10/20已經完成點燈啓用儀式媽祖銅像，下午先舉辦灑淨祈福法會，由佛光山常務副住持慧傳法師率慧裴、慧清等法師主持。</p>
+                <p>『歷時十年，媽祖像高48公尺，是世界最高的媽祖像，更是澎湖來往漁船新地標，守護澎湖群島。』</p>
+              </dd>
+
+              <dt class="col-sm-3">澎湖媽祖觀光文化園新期望</dt>
+              <dd class="col-sm-9">澎湖縣長賴峰偉、議長劉陳昭玲肯定「媽祖觀光文化園區」奠定澎湖在全球媽祖信仰文化的地位，並可永續促進觀光，創造澎湖旅遊新亮點。</dd>
+
+              <dt class="col-sm-3">媽祖全球信徒</dt>
+              <dd class="col-sm-9">約有2.5億人，聯合國教科文組織2009年將媽祖信仰文化列入「人類非物質文化遺產代表名錄」，號召國際社會共同保護。因此，縣府設置「澎湖媽祖觀光文化園區」，不僅展現澎湖的歷史地位、文化內涵，更可保存珍貴的世界文化遺產。賴峰偉強調，媽祖是澎湖人重要的心靈寄託，豎立媽祖雕像目的在發揚媽祖慈悲濟世精神，安撫心靈，透過灑淨儀式淨化人心，讓澎湖每一塊土地都能平安圓滿。。</dd>
+
+      </dl>
+          
+           <div class="modal fade" id="section1Modal" tabindex="-1" aria-labelledby="section1ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="section1ModalLabel">重光媽祖照片</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="img/媽祖/重光媽祖照片.jpg" alt="重光媽祖照片" class="img-fluid mb-3">
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+            </div>
+            </div>
+            </div>
+            </div> 
+            
+          
+            <div class="position-absolute top-100 start-0 translate-middle"></div>
+            
+            <figure class="text-end">
+                  <figcaption class="blockquote-footer">
+                     資料來源：<cite title="Source Title"><a href="https://zh.wikipedia.org/zh-tw/%E5%A4%A7%E5%80%89%E5%AA%BD%E7%A5%96%E6%96%87%E5%8C%96%E5%9C%92%E5%8D%80" target="_blank">Wikipedia</a></cite>
+                     <a href="http://www.lnanews.com/news/146688" target="_blank">人間通訊社</a></cite>
+                  </figcaption>
+            </figure>
+            
+            
+        </div>
+        </div>
+
+      </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-4">
+              <span class="copyright"><i>網頁設計期末作業第二組 &copy;<br>林鈞毅、胡家傑、黃奕翔、賴祈光、陳昱愷</i></span>
+            </div>
+            <div class="col-md-4">
+           
+            </div>
+            <div class="col-md-4">
+              <ul class="list-inline quicklinks" >
+                <li class="list-inline-item">
+                  <a href="index.html" style="color: #1ABC9C; text-decoration: none;"><i>回第一頁</a>
+                </li>
+              
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>	
+</body>
+</html>
