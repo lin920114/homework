@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Agency - Start Bootstrap Theme</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <!-- Custom styles for this template -->
+  <link href="css/agency.min.css" rel="stylesheet">
+  
+    <!-- Theme CSS -->
+  <link href="css/css_darren.css" rel="stylesheet"> <!-- Darren -->
+  
+	<!-- Darren -->
+	<link href="css/covid19.css" rel="stylesheet">
+
+</head>
+<style>
+img{
+   width: 100%;
+  }
+  .grid-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.grid-2{
+  width: calc(100% /12 * 2);
+}
+#about{
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+#about .grid-12:nth-of-type(1){
+    background-color: #2b2b2b;
+    padding: 4em;
+}
+#about .grid-2{
+  position: relative;
+  overflow: hidden;
+}
+#about .grid-2 .push{
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom: -3.5em;
+  padding: 1em 0;
+  font-weight: 900;
+}     
+#about .grid-2 img{
+  transition: all 450ms ease;
+}
+#about .grid-2:hover .push{
+  bottom: 0;
+}
+#about .grid-2:hover img{
+  filter: blur(2px) brightness(0.3);
+}
+#about .grid-12:nth-last-of-type(1){
+            color: black;
+            text-align: justify;
+            padding: 4vw 15vw;
+ }
+ @media (min-width:576px){
+  .dropdown:hover .dropdown-menu{
+  display: block;
+  opacity: 0;
+  transition: all 0.6s;
+ }
+ .dropdown:hover .dropdown-menu{
+  display: block;
+  margin-top: 0;
+  opacity: 1;
+ }
+ }
+ .footer{
+   background-color: #2b2b2b;
+   padding: 5em;
+   text-align: center;
+   color: aliceblue;
+ }
+ 
+</style>
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #2b2b2b; padding: 1em ; ">
+    <div class="container">
+      <a class="navbar-brand" href="#" style="color: aliceblue"><b><i>菊島探索</i></b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue">
+              <i>花火節</i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgba(0,0,0,.6);">
+              <li><a class="dropdown-item" href="花火節-01.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">文化特色</a></li>
+              <li><a class="dropdown-item" href="花火節-02.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">無人機秀</a></li>
+              <li><a class="dropdown-item" href="花火節-03.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">觀賞地點</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue">
+              <i>澎湖美食</i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgba(0,0,0,.6);">
+            
+              <li><a class="dropdown-item" href="早午餐.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">早午餐</a></li>
+              <li><a class="dropdown-item" href="下午茶.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">下午茶</a></li>
+              <li><a class="dropdown-item" href="晚餐.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">晚餐</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue">
+              <i>澎湖土產</i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgba(0,0,0,.6);">
+              <li><a class="dropdown-item" href="澎湖土產.html"style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;" >澎湖土產</a></li>
+              <li><a class="dropdown-item" href="黑糖糕.html"style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;" >黑糖糕</a></li>
+              <li><a class="dropdown-item" href="花生酥.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">花生酥</a></li>
+              <li><a class="dropdown-item" href="干貝醬.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">干貝醬</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue">
+              <i>古蹟文化</i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgba(0,0,0,.6);">
+              <li><a class="dropdown-item" href="西嶼西臺.html"style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;" >西嶼西臺</a></li>
+              <li><a class="dropdown-item" href="西嶼東臺.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">西嶼東臺</a></li>
+              <li><a class="dropdown-item" href="順承門.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">順承門</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue">
+              <i>澎湖媽祖</i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgba(0,0,0,.6);">
+              <li><a class="dropdown-item" href="活動介紹.html"style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;" >活動介紹</a></li>
+              <li><a class="dropdown-item" href="來歷介紹.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">來歷介紹</a></li>
+              <li><a class="dropdown-item" href="銅像介紹.html" style="color: rgb(74, 164, 253); padding:0.5em 0 1em 0;text-align: center;">馬祖銅像</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"style="color: aliceblue"><i>首頁</i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in">Welcome to Penghu! </div>
+        <div class="intro-heading text-uppercase">帶你認試澎湖古蹟文化與美食!</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">開始</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services -->
+  <section class="page-section" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">前言</h2>
+          <h2 class="section-subheading text-muted">來澎湖一定要知道的事情</h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img class="img-fluid" src="img/First/fire100.jpg" alt="" style="border-radius: 30px; box-shadow:3px 3px 5px 6px #cccccc;">
+          <h4 class="service-heading">花火節</h4>
+          <p class="text-muted">2023澎湖國際海上花火節</p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid" src="img/First/00.jpg" alt="" style="border-radius: 30px; box-shadow:3px 3px 5px 6px #cccccc;">
+          <h4 class="service-heading">古蹟文化</h4>
+		  <p class="text-muted">歷史悠久的古蹟與媽祖文化</p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-fluid" src="img/First/水月堂.jpg" alt="" style="border-radius: 30px;box-shadow:3px 3px 5px 6px #cccccc; ">
+          <h4 class="service-heading">美食</h4>
+          <p class="text-muted">在地美食與知名伴手禮</p>
+        </div>
+      </div>
+	  <br>
+
+	  <h2 class="section-subheading text-muted" style="text-align: center;">官方宣傳影片</h2>
+    <div class="container">
+      <div class="row">
+          <div class="col-md-6" >
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2jEkg3oev4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class="col-md-6">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/75kSLKHb32o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+      </div>
+
+    </div>
+	  
+	  </br>
+    </div>
+  </section>
+  <section class="six" style="background-color: #2b2b2b; padding:6em">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12 ">
+              <h2 style="color: aliceblue; text-align: center;">五大主題介紹</h2>
+              <p style="color: aliceblue; text-align: center;">花火節、美食、名產、古蹟、媽祖讓你一次瞭解</p>
+          </div>
+      </div>
+    </div>
+  </section >
+  <div id="about" class="grid-flex">
+         
+    <div class="grid-2">
+        <a href="花火節-01.html"><img src="img/First/fire.jpg"></a>
+        <div class="push">花火節</div>
+    </div>
+    <div class="grid-2">
+        <a href="早午餐.html"><img src="img/First/男子漢.jpg"></a>
+        <div class="push">澎湖美食</div>
+    </div>
+    <div class="grid-2">
+        <a href="黑糖糕.html"><img src="img/First/水月堂400.jpg"></a>
+        <div class="push">澎湖土產</div>
+    </div>
+    <div class="grid-2">
+        <a href="西嶼西臺.html"><img src="img/First/順城門.jpg"></a>
+        <div class="push">古蹟文化</div>
+    </div>
+    <div class="grid-2">
+        <a href="活動介紹.html"><img src="img/First/548.jpg"></a>
+        <div class="push">澎湖媽祖</div>
+    </div>
+    <div class="grid-2">
+        <a href=""><img src="https://picsum.photos/500/500?random=6"></a>
+        <div class="push">聯繫我們</div>
+    </div>
+  </div>
+<!-- Team -->
+  <section class="bg-light page-section" id="team">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <section class="bg-light page-section" id="portfolio" style="background-color: bisque;">
+            <div class="container">
+              <div class="row">
+            <!-- 動態文字 --> <!-- Darren -->
+            <div class="col-lg-12 text-center">		  
+              <h1 class="section-heading text-uppercase text-wrapper ml1">
+                <span class="text-wrapper">
+                  <span class="line line1"></span>
+                  <span class="letters">第二組組員介紹</span>
+                  <span class="line line2"></span>
+                </span>
+              </h1>			
+              <h2 class="section-subheading text-muted"><small>網頁設計期末作業第二組</small></h2>
+            </div>  
+                <div class="col-lg-12 text-center">
+                  <br>
+              </br>
+                </div>
+              </div>
+            </div> 
+          </section>
+        </div>
+      </div>
+      <div class="row">
+        
+        <div class="col-md-3">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/xiang_2.gif" alt="">
+            <h4>黃奕翔</h4>
+            <p class="text-muted">Saber翔</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/6.jpg" alt= "">
+            <h4>林鈞毅</h4>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/01.png" alt="">
+            <h4>賴祈光</h4>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/7.jpg" alt="">
+            <h4>陳昱愷</h4>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/04.jpg" alt="">
+            <h4>胡家傑</h4>
+         
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <span class="copyright">網頁設計期末作業第二組 &copy;<br>林鈞毅、胡家傑、黃奕翔、賴祈光、陳昱愷</span>
+        </div>
+        <div class="col-md-4">
+          
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="#">回第一頁</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript  動畫特效 小視窗 -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	
+  <!-- 文字動畫特效 --> <!-- Darren -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+	<!-- 文字動畫特效 --> <!-- Darren -->
+	<script src="js/Hui Hui.js"></script>
+
+</body>
+
+</html>
